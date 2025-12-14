@@ -55,7 +55,7 @@ The final Decision Tree achieved:
 - **Train ROC AUC:** 0.78
 - **Test ROC AUC:** 0.81
 
-![Receiver Operating Characteristics Curve](images/roc_curve.png)
+![Receiver Operating Characteristics Curve](images/ROC.png)
 
 The model demonstrates good discriminatory performance, achieving an AUC of
 78% on the training set and 81% on the test set. The comparable performance
