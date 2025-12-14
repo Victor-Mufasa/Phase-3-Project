@@ -14,10 +14,10 @@ Customer churn is a major challenge for SyriaTel's Telecom company, as acquiring
 - **5. To determine the best-performing machine learning model for predicting SyriaTel telecom customer churn.**
 
 ## **Dataset**
-The dataset used for analysis and prections [data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset) from kaggle updated 8 years ago
+The dataset used for analysis and prections [data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset) was gotten from kaggle updated 8 years ago
 
 ### **Data Preprocessing**
-- 1. The data was clean i.e. no missing values and no duplicates
+- The data was clean i.e. no missing values and no duplicates
 
 ### **Analytical Approach**
 - **Descriptive Statistics** -- Calculated mean churn by state, new and customers
@@ -51,13 +51,23 @@ The final model was selected based on validation AUC score and model interpretab
 Model performance was evaluated using **ROC curve and Area Under the Curve**, as the target, churn, 
 had class imbalance and AUC captures ranking performance.
 
+The final Logistic Regression model achieved:
+- **Train ROC AUC:** 0.92
+- **Test ROC AUC:** 0.89
+
+![Receiver Operating characteristic Curve](images/LR_ROC.png)
+
 The final Decision Tree achieved:
 - **Train ROC AUC:** 0.78
 - **Test ROC AUC:** 0.81
 
 ![Receiver Operating Characteristics Curve](images/ROC.png)
 
-The model demonstrates good discriminatory performance, achieving an AUC of
+The logistic regression model demonstrates good discriminatory performance, achieving an AUC of
+92% on the training set and 89% on the test set. The comparable performance
+across datasets indicates strong generalization and minimal overfitting.
+
+The decision tree model demonstrates good discriminatory performance, achieving an AUC of
 78% on the training set and 81% on the test set. The comparable performance
 across datasets indicates strong generalization and minimal overfitting.
 
