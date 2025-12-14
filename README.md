@@ -39,10 +39,10 @@ Several models were evaluated, including:
 
 Hyperparameter tuning was performed on the Decision Tree to control
 overfitting, focusing on:
-- `max_depth`
-- `min_samples_split`
-- `max_features`
-- `max_sample_leafs`
+- max_depth
+- min_samples_split
+- max_features
+- max_sample_leafs
 
 The final model was selected based on validation AUC score and model interpretability.
 
