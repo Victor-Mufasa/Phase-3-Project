@@ -31,7 +31,7 @@ The dataset used for analysis and prections [data](https://www.kaggle.com/datase
 
 ## Modeling
 
-We formulated the churn problem as a binary classification task.
+I formulated the churn problem as a binary classification task.
 Several models were evaluated, including:
 
 - Logistic Regression (baseline)
@@ -49,7 +49,7 @@ The final model was selected based on validation AUC score and model interpretab
 ## Evaluation
 
 Model performance was evaluated using **ROC curve and Area Under the Curve**, as the target, churn, 
-is imbalanced and AUC captures ranking performance.
+had class imbalance and AUC captures ranking performance.
 
 The final Decision Tree achieved:
 - **Train ROC AUC:** 0.78
