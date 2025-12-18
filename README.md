@@ -34,8 +34,8 @@ The dataset used for analysis and prections [data](https://www.kaggle.com/datase
 I formulated the churn problem as a binary classification task.
 Several models were evaluated, including:
 
-- Logistic Regression (baseline)
-- Decision Tree Classifier
+- Logistic Regression
+- Decision Tree
 
 Hyperparameter tuning was performed on the Decision Tree to control
 overfitting, focusing on:
@@ -81,12 +81,12 @@ across datasets indicates strong generalization and minimal overfitting.
 ## Conclusion
 
 The analysis shows that customer churn can be predicted with reasonable
-accuracy using state, account length and service features like total eve minutes on a call etc.
+accuracy using state, account length and service features like total evening minutes on a call etc.
 
 The model enables the business to:
 - Identify the strongest driver of churning, international plan.
-- Target retention efforts more effectively
-- Reduce customer acquisition costs
+- Target retention efforts more effectively.
+- Reduce customer acquisition costs.
 
 However, the model is limited by the size of the dataset and the use of
 a single classifier. Future work will explore ensemble methods such as
