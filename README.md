@@ -78,20 +78,6 @@ across datasets indicates strong generalization and minimal overfitting.
 - The odds of churn of a customer with a voice mail plan reduces by about 84% compared to a person without.
 - State is also a factor affecting churn rate.
 
-## Conclusion
-
-The analysis shows that customer churn can be predicted with reasonable
-accuracy using state, account length and service features like total evening minutes on a call etc.
-
-The model enables the business to:
-- Identify the strongest driver of churning, international plan.
-- Target retention efforts more effectively.
-- Reduce customer acquisition costs.
-
-However, the model is limited by the size of the dataset and the use of
-a single classifier. Future work will explore ensemble methods such as
-Random Forests.
-
 ## Recommendations
 
 1. **Re-evaluate the international plan offering**
@@ -111,3 +97,17 @@ Random Forests.
 4. **Prioritize retention efforts in high-churn states**
    New Jersey and California should be treated as priority regions for churn
    mitigation, with targeted retention campaigns and enhanced customer support.
+   
+## Conclusion
+
+The analysis shows that customer churn can be predicted with reasonable
+accuracy using state, account length and service features like total evening minutes on a call etc.
+
+The model enables the business to:
+- Identify the strongest driver of churning, international plan.
+- Target retention efforts more effectively.
+- Reduce customer acquisition costs.
+
+However, the model is limited by the size of the dataset and the use of
+a single classifier. Future work will explore ensemble methods such as
+Random Forests.
