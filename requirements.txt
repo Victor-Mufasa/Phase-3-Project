@@ -1,3 +1,4 @@
 jupyter==1.0.0
-notebook==6.5.4
-ipykernel==6.25.0
+jupyterlab==4.3.6
+notebook==7.3.2 
+ipykernel==6.29.5
