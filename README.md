@@ -23,7 +23,7 @@ The dataset used for analysis and prections [data](https://www.kaggle.com/datase
 - **Descriptive Statistics** -- Calculated mean churn by state, new and customers
 - **Correlation Analysis** -- Examined and removed highly correlated features
 - **Hypothesis Testing:**
-	- Performed t-test to compare the mean account length of those who churn and those who don't
+	- T-test to compare the mean account length of those who churn and those who don't
 	- Chi-Square test to check for association between churn and state
 ## **Visualization** -- Created bar plots to give insights and also ROC curve for the optimal model
 ![Churn rate by customer type](images/churn_customer.png)
